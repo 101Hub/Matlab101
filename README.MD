@@ -8,7 +8,7 @@
 ### 目录
 
 ### :bread: 基础
-- Matlab基础()
+- [Matlab基础](docs/Matlab%E5%9F%BA%E7%A1%80.md)
 - Matlab编程
 ### 💻 
 -
