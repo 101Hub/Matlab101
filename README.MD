@@ -9,14 +9,14 @@
 
 ## :bread: 基础
 
-- [Matlab基础](docs/Matlab基础.md)
-- [Matlab编程]()
+- [Matlab 基础](docs/Matlab基础.md)
+- [Matlab 编程]()
 
 ## 💻 进阶
-- Matlab Gui编程
-- Matlab绘图
+- Matlab Gui 编程
+- Matlab 绘图
 ## 📏 应用
-- Matlab科学计算
+- Matlab 科学计算
 ### :memo: 后记 
 
 ### License
