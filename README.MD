@@ -13,7 +13,8 @@
 - [Matlab编程]()
 
 ## 💻 进阶
-- Matlab-Gui
+- Matlab Gui编程
+- 
 ## 📏Matlab科学计算
 -
 ### :memo: 后记 
