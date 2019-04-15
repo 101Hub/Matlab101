@@ -14,7 +14,7 @@
 	
 
 ```
-> 这个是Matlab官网的入门教程，适合快速了解Matlab。
+这个是Matlab官网的入门教程，适合快速了解Matlab。
 ```
 	
 - #### Matlab 编程
