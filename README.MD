@@ -9,12 +9,12 @@
 
 ## :bread: 基础
 
-- #### Matlab 基础教程
+#### Matlab 基础教程
 	- [MATLAB 快速入门](https://ww2.mathworks.cn/help/matlab/getting-started-with-matlab.html) 
 	
 
 ```
-这个是Matlab官网的入门教程，适合快速了解Matlab。
+这个是Matlab官网的入门教程，适合快速了解Matlab的基础知识。
 ```
 	
 - #### Matlab 编程
