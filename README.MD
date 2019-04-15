@@ -11,7 +11,7 @@
 
 #### Matlab 基础教程
 - 
-[Matlab 编程](docs/Matlab编程.md)
+Matlab 编程
 
 ## 💻 进阶
 - [Matlab Gui 编程]()
