@@ -21,12 +21,12 @@
 
 - #### Matlab 编程
 	- [脚本和函数编程——程序文件、控制流、编辑、调试（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html)
-	- [《Matlab编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)
+	- [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)
 
 	
 ```
 注：
-    Matlab脚本和函数编程除了官方教程外，推荐一本《Matlab编程》第二版
+    Matlab脚本和函数编程除了官方教程外，推荐一本《Matlab编程》第二版，里面有大量的指导和练习，有助于养成良好的代码习惯。
 ```	
 
 
