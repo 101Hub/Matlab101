@@ -1,0 +1,8 @@
+x = [ 1 2 3 4 5 6];
+y = [ 2 6 8 7 8 5];
+stairs(x,y);
+title('\bfExample of a Stair Plot');
+xlabel('\bf\itx');
+ylabel('\bf\ity');
+axis([0 7 0 10]);
+ 
