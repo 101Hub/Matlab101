@@ -46,8 +46,8 @@
 ## 🍒 资源
 - [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
 	- [MATLAB Answers](https://www.mathworks.com/matlabcentral/answers/index/?s_tid=gn_mlc_an)
-	- [File Exchange]()
-	- [Cody]()
+	- [File Exchange 代码文件分享网站](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=gn_mlc_fx)
+	- [Cody](https://www.mathworks.com/matlabcentral/cody/?s_tid=gn_mlc_cody)
 ### :memo: 后记 
 
 ### License
