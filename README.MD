@@ -43,7 +43,7 @@
 1. #### 科学计算
 	1. 《Matlab 在科学计算中的应用》国科大 申立勇 
 2. #### 
-[PPT课件及作业](assets/《Matlab 在科学计算中的应用》PPT课件及作业)
+[PPT课件及作业](Matlab 在科学计算中的应用》PPT课件及作业)
 ## 🍒 资源
 - [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
 	- [MATLAB Answers 问答网站](https://www.mathworks.com/matlabcentral/answers/index/?s_tid=gn_mlc_an)
