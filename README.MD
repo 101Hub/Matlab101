@@ -20,7 +20,7 @@
 - #### Matlab 编程
 	- [脚本和函数编程](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html)
 ```
-这个是Matlab官网的
+这个是Matlab官网的脚本和函数编程内容。
 ```
 ## 💻 进阶
 
