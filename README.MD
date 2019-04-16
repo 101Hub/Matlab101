@@ -15,7 +15,7 @@
 	- [数据导入和分析——导入和导出、预处理、可视化探查（官网）](https://ww2.mathworks.cn/help/matlab/data-import-and-analysis.html)
 ```language
 注：
-    Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍即可。
+    Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍，。
 ```
 
 2.  #### Matlab 编程
@@ -31,7 +31,7 @@
 
 ## 💻 进阶
 1.  #### Matlab 高级编程
-	-高级软件开发面向对象的编程；代码性能；单元测试；与 Java® 和 Web 服务、C/C++、.NET 和其他语言的外部接口	
+	- [高级软件开发——面向对象的编程；代码性能；单元测试；与 Java® 和 Web 服务、C/C++、.NET 和其他语言的外部接口(官网)](https://ww2.mathworks.cn/help/matlab/software-development.html)	
 - #### Matlab GUI 编程
 	- [App 构建——使用 App 设计工具、GUIDE 或编程工作流进行 App 开发(官网)](https://ww2.mathworks.cn/help/matlab/gui-development.html)
 
