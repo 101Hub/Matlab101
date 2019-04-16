@@ -49,7 +49,7 @@
 	- [File Exchange 代码文件分享网站](https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=gn_mlc_fx)
 	- [Cody 题库](https://www.mathworks.com/matlabcentral/cody/?s_tid=gn_mlc_cody)
 
-- [
+- [Matlab 中文论坛](https://www.ilovematlab.cn/)
 ### :memo: 后记 
 
 ### License
