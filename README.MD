@@ -11,7 +11,7 @@
 
 - #### Matlab 基础教程
 	- [MATLAB 快速入门（官网）](https://ww2.mathworks.cn/help/matlab/getting-started-with-matlab.html)
-	- 
+	- 语言基础知识
 	
 - #### Matlab 编程
 	- [脚本和函数编程（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html) [PDF英文版本](assets/getstarted.pdf)
