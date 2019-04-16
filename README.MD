@@ -15,7 +15,7 @@
 	- [数据导入和分析——导入和导出、预处理、可视化探查（官网）](https://ww2.mathworks.cn/help/matlab/data-import-and-analysis.html)
 ```language
 注：
-    Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍，平时多使用帮助命令 help,doc,demo。
+    Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍，平时多使用语法帮助命令 help,doc,demo。
 ```
 
 2.  #### Matlab 编程
@@ -27,7 +27,7 @@
 注：
     Matlab 脚本和函数编程部分除了官方教程外，推荐一本《Matlab 编程》第二版，里面有大量的指导和练习，有助于养成良好的代码习惯。
 ```	
-
+3. #### 笔记整理
 
 ## 💻 进阶
 1.  #### Matlab 高级编程
