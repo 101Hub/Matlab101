@@ -44,12 +44,8 @@
 2. #### 
 
 ## 🍒 资源
-- 
-- MATLAB Answers
-- File Exchange
-- Cody
-- Blogs
-- ThingSpeak
+- [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
+	
 ### :memo: 后记 
 
 ### License
