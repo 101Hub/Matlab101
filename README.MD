@@ -10,8 +10,7 @@
 ## :bread: 基础
 
 - #### Matlab 基础教程
-	- [MATLAB 快速入门（官网）] (https://ww2.mathworks.cn/help/matlab/getting-started-with-matlab.html) > 段落引用
-
+	- [MATLAB 快速入门（官网）] (https://ww2.mathworks.cn/help/matlab/getting-started-with-matlab.html)
 ```
 这个是Matlab官网的入门教程，适合快速了解Matlab的基础知识。
 ```
@@ -19,8 +18,6 @@
 - #### Matlab 编程
 	- [脚本和函数编程（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html)
 	- [《Matlab编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)
-
-
 
 	
 ```
