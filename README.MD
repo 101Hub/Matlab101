@@ -45,7 +45,11 @@
 
 ## 🍒 资源
 - [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
-	
+	- MATLAB Answers
+	- File Exchange
+	- Cody
+	- Blogs
+	- ThingSpeak	
 ### :memo: 后记 
 
 ### License
