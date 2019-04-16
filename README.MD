@@ -15,17 +15,17 @@
 	- [数据导入和分析——导入和导出、预处理、可视化探查（官网）](https://ww2.mathworks.cn/help/matlab/data-import-and-analysis.html)
 ```language
 注：
-    Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍，平时多使用语法帮助命令 help,doc,demo。
+  Matlab 基础部分只需要利用好官网的教程，把上面 4 部分内容过一遍，平时多使用语法帮助命令 help,doc,demo。
 ```
 
 2.  #### Matlab 编程
 	- [脚本和函数编程——程序文件、控制流、编辑、调试（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html)
-	- [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf) [源码](assets/《Matlab编程》)
+	- [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)   [源代码](assets/《Matlab编程》)
 
 	
 ```
 注：
-    Matlab 脚本和函数编程部分除了官方教程外，推荐一本《Matlab 编程》第二版，里面有大量的指导和练习，有助于养成良好的代码习惯。
+Matlab 脚本和函数编程部分除了官方教程外，推荐一本《Matlab 编程》第二版，里面有大量的指导和练习，有助于养成良好的代码习惯。
 ```	
 3. #### 笔记整理
 
