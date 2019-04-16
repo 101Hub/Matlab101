@@ -44,7 +44,12 @@
 2. #### 
 
 ## 🍒 资源
-
+- 
+- MATLAB Answers
+- File Exchange
+- Cody
+- Blogs
+- ThingSpeak
 ### :memo: 后记 
 
 ### License
