@@ -11,8 +11,8 @@
 
 - #### Matlab 基础教程
 	- [MATLAB 快速入门（官网）](https://ww2.mathworks.cn/help/matlab/getting-started-with-matlab.html)
-	- 语言基础知识
-	
+	- [语言基础知识（官网）](https://ww2.mathworks.cn/help/matlab/language-fundamentals.html)
+	-
 - #### Matlab 编程
 	- [脚本和函数编程（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html) [PDF英文版本](assets/getstarted.pdf)
 	- [《Matlab编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)
