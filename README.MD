@@ -27,9 +27,6 @@
 注：
   Matlab 脚本和函数编程部分除了官方教程外，推荐一本《Matlab 编程》第二版，里面有大量的指导和练习，有助于养成良好的代码习惯。
 ```	
-3. #### 笔记整理
-
-
 ## 💻 进阶
 1.  #### Matlab 高级编程
 	- [高级软件开发——面向对象的编程；代码性能；单元测试；与 Java® 和 Web 服务、C/C++、.NET 和其他语言的外部接口(官网)](https://ww2.mathworks.cn/help/matlab/software-development.html)	
@@ -43,7 +40,6 @@
 ## 📏 应用
 1. #### 科学计算
 	1. 《Matlab 在科学计算中的应用》国科大 申立勇 [PPT课件及作业](《Matlab在科学计算中的应用》PPT课件及作业)   ✒[Matlab科学计算复习笔记](docs/Matlab科学计算.md)
-2. #### 
 
 ## 🍒 资源
 - [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
