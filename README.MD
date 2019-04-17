@@ -50,7 +50,8 @@
 - [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
 
 ## ✍笔记整理
- - [《Effective Matlab — 编写高效的 Matlab 代码》](docs/Effective_Matlab.md)
+ - [《Effective Matlab — 编写高效的 Matlab 代码》笔记](docs/Effective_Matlab.md)
+ - [《Matlab科学计算复习笔记》](docs/Matlab科学计算.md)
 
 
 ### :memo: 后记 
