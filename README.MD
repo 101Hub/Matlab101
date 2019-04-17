@@ -35,7 +35,7 @@
 
 
 #### 笔记整理
- - [Effective Matlab — 编写高效的 Matlab 代码](docs/Effective_Matlab.md)
+ - [《Effective Matlab — 编写高效的 Matlab 代码》](docs/Effective_Matlab.md)
 
 
 ## 📏 应用
