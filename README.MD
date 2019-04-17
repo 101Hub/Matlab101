@@ -38,7 +38,7 @@
 
 ## 📏 应用
 1. #### 科学计算
-	1. 《Matlab 在科学计算中的应用》国科大 申立勇 [PPT课件及作业](《Matlab在科学计算中的应用》PPT课件及作业)   ✒[Matlab科学计算复习笔记](docs/Matlab科学计算.md)
+	1. 《Matlab 在科学计算中的应用》国科大 申立勇 [PPT课件及作业](《Matlab在科学计算中的应用》PPT课件及作业) 
 
 ## 🍒 资源
 - [MATLAB® Central](https://www.mathworks.com/matlabcentral/index.html)
@@ -48,6 +48,11 @@
 
 - [Matlab 中文论坛](https://www.ilovematlab.cn/)
 - [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
+
+## ✍笔记整理
+ - [《Effective Matlab — 编写高效的 Matlab 代码》](docs/Effective_Matlab.md)
+
+
 ### :memo: 后记 
 ### License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可。
