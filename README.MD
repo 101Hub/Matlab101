@@ -51,6 +51,7 @@
 	- [Cody 题库](https://www.mathworks.com/matlabcentral/cody/?s_tid=gn_mlc_cody)
 
 - [Matlab 中文论坛](https://www.ilovematlab.cn/)
+- [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
 ### :memo: 后记 
 
 ### License
