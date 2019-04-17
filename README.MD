@@ -34,8 +34,6 @@
 	- [App 构建——使用 App 设计工具、GUIDE 或编程工作流进行 App 开发(官网)](https://ww2.mathworks.cn/help/matlab/gui-development.html)
 
 
-#### 笔记整理
- - [《Effective Matlab — 编写高效的 Matlab 代码》](docs/Effective_Matlab.md)
 
 
 ## 📏 应用
