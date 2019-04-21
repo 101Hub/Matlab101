@@ -10,4 +10,5 @@
 ## 🔎参考资料
 - [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)    🗃[源代码](assets/《Matlab编程》源码)
 - [《Matlab Guidelines》]()
-- 
+- [《Writting Fast Matlab Code》]()
+- [《Good Matlab Programminh》]()
