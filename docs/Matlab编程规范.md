@@ -149,5 +149,16 @@ printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻�
 
 ##### 通用名词（General）的命名规范
 
+* Consider a unit suffix for dimensioned variables and constants. 
+* Minimize abbreviations in names. 
+* ```
+  %Use 
+  computeArrivalTime  
+  %Avoid 
+  comparr 
+  ```
+* Consider making names pronounceable. 
+* Write names in English. 
+
 
 
