@@ -11,7 +11,7 @@
 * #### 第二部分 Matlab 编程
 
   * #### [Matlab 编程规范\(Matlab Coding Style\)](/docs/Matlab编程规范.md)
-  * #### Matlab 向量化编程\(Vectorization\)
+  * #### [Matlab 向量化编程\(Vectorization\)](/docs/Matlab 向量化编程.md)
   * #### Matlab 最佳实践（Best Practice）
 
 ## 🔎参考资料
