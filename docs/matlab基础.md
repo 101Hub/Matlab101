@@ -8,5 +8,9 @@
 
 #### 2.一些常用 matlab 命令整理
 
+* 在命令窗口\(The   Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
+* 如果一个 M 文件运行时间过长，里面可能含有无限循  环，而没有结束。在这种情况下，可在命令窗口内输入 control-c\(简写为^c\)
+* 用 diary 命令记录下在MATLAB 中运行过程中每个线程所做的事。命令的  格式如下： diary filename   。当这个命令被执行后，所有在命令窗口\(The Command Windows\)中的输入和输出将会被  记录在 diary 文件中。这是一个非常重要的工具，当MATLAB 发生错误而中断时，利用它 你可以重建重要的事件。diary off 命令中止写入 diary 文件，diary on 命令重新开始写入。
+
 
 
