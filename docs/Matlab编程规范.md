@@ -1,4 +1,4 @@
-### 📌Matlab 编程规范\(Matlab Coding Style\)
+📌Matlab 编程规范\(Matlab Coding Style\)
 
 * [命名规范（Naming Conventions）](#命名规范（naming-conventions）)
   * [变量（Variables）的命名规范](#变量（variables）的命名规范：)
@@ -8,9 +8,23 @@
   * [通用（General）的命名规范](#通用（general）的命名规范)
 * [布局、注释及文档规范（Layout, Comments and Documentation ）](#布局、注释及文档规范（layout-comments-and-documentation-）)
 
+  * [布局（Layout）](#布局（layout）)
+
+  * [空格（Space）](#空格（space）)
+
+  * [注释（Comments）](#注释（comments）)
+
 * [文件及组织架构（Files and Organization）](#文件及组织架构（files-and-organization）)
 
+  * [M文件](#m文件)
+
+  * [输入和输出（Input and Output）](#输入和输出（input-and-output）)
+
 * [声明（Statements）](#文件及组织架构（files-and-organization）)
+
+  * [变量和常量（Variables and constants ）](#变量和常量（variables-and-constants-）)
+
+  * [全局（Globals ）](#全局（globals-）)
 
 #### 命名规范（Naming Conventions）
 
