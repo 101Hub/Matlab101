@@ -6,7 +6,7 @@
 
 第三种方法是通过 lookfor 命令得到帮助。lookfor 命令与 help 命令不同，help 命令要求与函数名精确匹配，而 lookfor 只要求与每个函数中的总结信息有匹配。
 
-#### 2. 一些常用及非常有效的 matlab 命令整理
+#### 2. 一些常用及非常有效的 matlab 命令及使用技巧
 
 * 在命令窗口\(The
    Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
@@ -63,6 +63,41 @@
 >> dir(’some_path\’) % 某路径下的所有文件
 
 >> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
+```
+
+* 画图
+
+  ```matlab
+  >> title({‘line 01’, ‘line 02’, ’line 03’}) % 画图中的标题分成多行
+
+  % 标题，坐标轴等均可使用LaTeX格式
+  >> title('$$ax = b$$','interpreter','latex')
+  >> xlabel(('$$ax = b$$','interpreter','latex')
+
+  % 设定图像的坐标轴取值范围（统一取值范围，方便比较多幅图）
+  >> axis([xmin, xmax, ymin, ymax])
+  % 设定图像的颜色取值范围 （统一颜色深浅范围，方便比较heatmap）
+  >> caxis([cmin, cmax])
+
+  >> axis on (off) %(不)显示坐标轴
+  >> grid on (off) % (不)添加网格
+
+  % 自定义legend名称
+  >> figure
+  >> plot(x1, y1, ’DisplayName’, ’legend01’); hold on
+  >> plot(x2,y2, ’DisplayName’, ’legend02’); hold off
+  >> legend(’show')
+
+  % 同时画很多图时，可以让它们dock在同一个窗口，避免出现无数悬窗
+  >> h1 = figure(); h2 = figure();
+  >> set(h1, 'WindowStyle','docked')
+  >> set(h2, 'WindowStyle','docked')
+  ```
+
+* 其它
+
+```
+
 ```
 
 
