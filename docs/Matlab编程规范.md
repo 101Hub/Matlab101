@@ -196,19 +196,31 @@ initializeProblemState
 #### 布局（Layout）
 
 * Keep content within the first 80 columns. 
-* Split long lines at graceful places. In general:  Break after a comma or space.  Break after an operator. 
+* Split long lines at graceful places. In general:  Break after a comma or space.  Break after an operator.
 
 * ```matlab
-
    totalSum = a + b + c + …            
    d + e; 
    function (param1, param2,…
               param3) 
    setText ([‘Long line split’ …
-             ‘into two parts.’]); 
+             ‘into two parts.’]);
   ```
+* Indent 3 or 4 spaces.
 
-* Indent 3 or 4 spaces. 
+* Indent consistently with the MATLAB Editor. 
+
+* Write one executable statement per line of code. 
+
+* Short single statement if, for or while statements can be written on one line. 
+
+* ```matlab
+  if(condition), statement; end 
+ 
+  while(condition), statement; end 
+ 
+  for iTest = 1:nTest, statement; end 
+  ```
 
 
 
