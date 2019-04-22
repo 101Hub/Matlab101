@@ -2,6 +2,9 @@
 
 * #### [命名规范（Naming Conventions）](#命名规范（naming-conventions）)
 
+  * ##### 变量（Variables）的命名规范
+  * ##### 常量（Constant）的命名规范
+
 #### 命名规范（Naming Conventions）
 
 ##### 变量（Variables）的命名规范：
@@ -14,6 +17,7 @@
 * Variables with a large scope should have meaningful names. Variables with a small scope can have short names. 常规变量使用有意义的命名，临时变量、结构变量可以使用短变量名。虚数推荐使用 1i or 1j 。
 
 * Use the prefix n for variables representing the number of objects.  使用前缀n表示数量
+
 * ```
   nFiles, nSegments 
   mRows
@@ -27,6 +31,7 @@
 * Use the suffix No or Num or the prefix i in a variable name representing a single entity number.
 
 * Prefix iterator variable names with i, j, k etc. 循环迭代推荐使用带前缀的变量，并且按顺序使用i,j,k
+
 * ```matlab
   for iFile = 1:nFiles    
       for jPosition = 1:nPositions  
@@ -85,7 +90,7 @@
   uint8thetaDegrees %匈牙利命名法
   ```
 
-**骆驼命名法：**
+> **骆驼命名法：**
 
 **小驼峰法（camel方法）**变量一般用小驼峰法标识。第一个单词以小写字母开始；第二个单词的首字母大写或每一个单词的首字母都采用大写字母，例如：myFirstName、myLastName
 
@@ -98,6 +103,17 @@ printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻�
 
 print_employee_paychecks()；下划线法----函数名中的每一个逻辑断点都有一个下划线来标记。
 ```
+
+##### 常量（Constant）的命名规范：
+
+* Constant names with local scope \(within an mfile\) should be all uppercase using underscore to separate words. 
+* ```
+  %Use meaningful names for constants.  
+  %Use 
+  MAX_ITERATIONS 
+  %Avoid 
+  TEN, MAXIT 
+  ```
 
 
 
