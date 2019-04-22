@@ -4,6 +4,7 @@
 
   * ##### 变量（Variables）的命名规范
   * ##### 常量（Constant）的命名规范
+  * ##### 结构体（Structure）的命名规范
 
 #### 命名规范（Naming Conventions）
 
@@ -114,10 +115,21 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
   %Avoid 
   TEN, MAXIT
   ```
+* Constants can be prefixed by a common type name.
 
-* Constants can be prefixed by a common type name.  
 * ```
-  COLOR_RED, COLOR_GREEN, COLOR_BLUE 
+  COLOR_RED, COLOR_GREEN, COLOR_BLUE
+  ```
+
+##### 结构体（Structure）的命名规范：
+
+* Structure names should begin with a capital letter.
+* The name of the structure is implicit, and need not be included in a fieldname.
+* ```
+  %Use 
+  Segment.length 
+  %Avoid 
+  Segment.segmentLength 
   ```
 
 
