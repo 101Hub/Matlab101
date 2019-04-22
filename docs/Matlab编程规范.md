@@ -79,6 +79,7 @@
 * ```
   alpha, angle, axes, axis, balance, beta, contrast, gamma, image, info, input,
   length, line, mode, power, rank, run, start, text, type 
+
   %推荐加一个前缀或者后缀
   lengthCm, armLength, thisLength
   ```
@@ -135,9 +136,19 @@ printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻�
 
 ##### 函数（Functions）的命名规范
 
-* Write names of functions in lower or mixed case. 
+* Write names of functions in lower or mixed case.
+* ```
+  predictSeaLevel, publishHelpPages  
+  ```
 * Use meaningful function names. 
-* Name functions that have a single output based on the output. 
+* ```
+  %Use 
+  computeTotalWidth 
+
+  %Avoid 
+  compwid 
+  ```
+* Name functions that have a single output based on the output. 单输出函数以函数输出命名。
 * Functions with no output argument or which only return a handle should be named after what they do. 
 * Reserve the prefixes get/set for functions that access an object or property. 
 * Reserve the prefix compute for functions where something is computed. 
@@ -155,7 +166,7 @@ printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻�
   %Use 
   computeArrivalTime  
   %Avoid 
-  comparr 
+  comparr
   ```
 * Consider making names pronounceable. 
 * Write names in English. 
