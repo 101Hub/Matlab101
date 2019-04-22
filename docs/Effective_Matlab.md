@@ -10,7 +10,7 @@
   * #### [Matlab 技巧、快捷键及注意事项](/docs/matlab技巧_快捷键_注意事项.md)
 * #### 第二部分 Matlab 编程
 
-  * #### [Matlab 编程规范\(Matlab Coding Style\)](/Matlab编程规范.md)
+  * #### [Matlab 编程规范\(Matlab Coding Style\)](/docs/Matlab编程规范.md)
   * #### Matlab 向量化编程\(Vectorization\)
 
 ## 🔎参考资料
