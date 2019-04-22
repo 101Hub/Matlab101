@@ -4,6 +4,8 @@
   * 变量（Variables）的命名规范
   * 常量（Constant）的命名规范
   * 结构体（Structure）的命名规范
+  * 函数（Functions）的命名规范
+  * 通用名词（General）的命名规范
 
 #### 命名规范（Naming Conventions）
 
@@ -101,7 +103,6 @@
 ```
 printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻辑断点都有一个大写字母来标记
 
-print_employee_paychecks()；下划线法----函数名中的每一个逻辑断点都有一个下划线来标记。
 ```
 
 ##### 常量（Constant）的命名规范：
@@ -132,6 +133,22 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
   %Avoid 
   Segment.segmentLength
   ```
+
+##### 函数（Functions）的命名规范
+
+* Write names of functions in lower or mixed case. 
+* Use meaningful function names. 
+* Name functions that have a single output based on the output. 
+* Functions with no output argument or which only return a handle should be named after what they do. 
+* Reserve the prefixes get/set for functions that access an object or property. 
+* Reserve the prefix compute for functions where something is computed. 
+* Consider reserving the prefix find for functions where something is looked up. 
+* Consider using the prefix initialize where an object or a variable is established.
+* Use the prefix is for Boolean functions. 
+* Use complement names for complement operations. 
+* Avoid unintentional shadowing. 
+
+##### 通用名词（General）的命名规范
 
 
 
