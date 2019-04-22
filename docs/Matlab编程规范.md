@@ -13,20 +13,20 @@
 
 * Write variable names in mixed case starting with lower case.  驼峰命名法
 
-* ```
+* ```matlab
   linearity, credibleThreat, qualityOfLife
   ```
 * Variables with a large scope should have meaningful names. Variables with a small scope can have short names. 常规变量使用有意义的命名，临时变量、结构变量可以使用短变量名。虚数推荐使用 1i or 1j 。
 
 * Use the prefix n for variables representing the number of objects.  使用前缀n表示数量
 
-* ```
+* ```matlab
   nFiles, nSegments 
   mRows
   ```
 * Follow a consistent convention on pluralization. 复数的表示遵循一贯的准则
 
-* ```
+* ```matlab
   point,   pointArray, PointList %推荐复数的表达
   thisPoint %推荐单数的表达
   ```
@@ -44,7 +44,7 @@
   ```
 * Avoid negated Boolean variable names.  避免使用否定形式的布尔变量
 
-* ```
+* ```matlab
   %Use 
   isFound and ~isFound 
 
@@ -53,7 +53,7 @@
   ```
 * Acronyms, even if normally uppercase, should be written in mixed or lower case.
 
-* ```
+* ```matlab
   % Use 
   html, isUsaSpecific, checkTiffFormat() 
 
@@ -67,7 +67,7 @@
   ```
 * Use common domain-specific names.
 
-* ```
+* ```matlab
   %Use 
   roi, or regionOfInterest 
 
@@ -76,7 +76,7 @@
   ```
 * Avoid Variable Names That Shadow Functions. 避免与函数重名
 
-* ```
+* ```matlab
   alpha, angle, axes, axis, balance, beta, contrast, gamma, image, info, input,
   length, line, mode, power, rank, run, start, text, type 
 
@@ -85,7 +85,7 @@
   ```
 * Avoid Hungarian notation. 避免匈牙利命名法
 
-* ```
+* ```matlab
   %Use 
   thetaDegrees 
 
