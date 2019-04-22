@@ -1,4 +1,4 @@
-#### 1.获得MATLAB帮助的三种方法
+#### 1. 获得MATLAB帮助的三种方法
 
 最好的方法是使用帮助空间窗口（helpbrowser）。你可以单击MATLAB桌面工具栏上的图标 ，也可以在命令窗口 \(The Command Windows\)中输入 helpdesk 或 helpwin 来启动帮助空间窗口（helpbrowser）
 
@@ -6,11 +6,64 @@
 
 第三种方法是通过 lookfor 命令得到帮助。lookfor 命令与 help 命令不同，help 命令要求与函数名精确匹配，而 lookfor 只要求与每个函数中的总结信息有匹配。
 
-#### 2.一些常用 matlab 命令整理
+#### 2. 一些常用及非常有效的 matlab 命令整理
 
-* 在命令窗口\(The   Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
-* 如果一个 M 文件运行时间过长，里面可能含有无限循  环，而没有结束。在这种情况下，可在命令窗口内输入 control-c\(简写为^c\)
-* 用 diary 命令记录下在MATLAB 中运行过程中每个线程所做的事。命令的  格式如下： diary filename   。当这个命令被执行后，所有在命令窗口\(The Command Windows\)中的输入和输出将会被  记录在 diary 文件中。这是一个非常重要的工具，当MATLAB 发生错误而中断时，利用它 你可以重建重要的事件。diary off 命令中止写入 diary 文件，diary on 命令重新开始写入。
+* 在命令窗口\(The
+   Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
+* 如果一个 M 文件运行时间过长，里面可能含有无限循
+  环，而没有结束。在这种情况下，可在命令窗口内输入 control-c\(简写为^c\)
+* 用 diary 命令记录下在MATLAB 中运行过程中每个线程所做的事。命令的
+  格式如下： diary filename
+   。当这个命令被执行后，所有在命令窗口\(The Command Windows\)中的输入和输出将会被
+  记录在 diary 文件中。这是一个非常重要的工具，当MATLAB 发生错误而中断时，利用它 你可以重建重要的事件。diary off 命令中止写入 diary 文件，diary on 命令重新开始写入。
+* 快捷键：
+
+  * **ctrl + C**: 中断正在跑的程序
+  * **ctrl + R**: 多行注释
+  * **ctrl + T**: 多行去除注释
+  * **ctrl + i**: 自动缩进对齐
+  * **shift + TAB**: 多行向右缩进
+  * **TAB**: 自动补全
+
+* 清理
+
+  ```matlab
+  >> clc % 清空Command Window
+
+  >> close all % 关闭所有图片窗口
+
+  >> close(h) % 关闭图片窗口h (e.g., h = figure(1))
+
+  >> clf % 清理当前图片窗口
+
+  >> clear % 清空所有变量
+
+  >> clear var1 var2 % 清理变量var1 var2 (注意用空格分隔)
+
+  >> clearvars -except var3 var4 % 理除var3 var4以外的全部变量
+  ```
+
+* 查询：\[注意\] help, doc, edit 命令也可用于自定义函数，其帮助程度取决于该自定义函数的注释规范程度
+
+```matlab
+>> help matlab_fun % Matlab内置函数matlab_fun的帮助(简略)
+
+>> doc matlab_fun % Matlab内置函数matlab_fun的说明文档(详细)
+
+>> edit matlab_fun % 打开内置函数matlab_fun的script (source code)
+
+>> pwd % 当前文本路径
+
+>> which some_fun % 找出build-in函数或自定义函数的具体路径
+
+>> class(var) % 获取变量var的类型
+
+>> dir() % 当前路径下的所有文件
+
+>> dir(’some_path\’) % 某路径下的所有文件
+
+>> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
+```
 
 
 
