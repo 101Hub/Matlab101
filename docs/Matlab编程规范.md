@@ -337,8 +337,56 @@ initializeProblemState
   ```
 * Minimize the use of break in loops.
 
-* Minimize use of continue in loops. 
+* Minimize use of continue in loops.
+
 * The end lines in nested loops can have identifying comments .
+
+##### 条件（Conditionals）
+
+* Avoid complex conditional expressions. Introduce temporary logical variables instead. 
+* ```matlab
+  if (value>=lowerLimit)&(value<=upperLimit)&~…    
+     ismember(value,… valueArray)   
+     : 
+  end 
+
+  should be replaced by:  
+ 
+  isValid = (value >= lowerLimit) &…   
+            (value <= upperLimit); 
+  isNew   = ~ismember(value, valueArray); 
+ 
+  if (isValid & isNew)   
+   : 
+  end 
+  ```
+
+* Put the usual case in the if-part and the unusual in the else-part of an if else statement.
+* ```matlab
+  fid = fopen(fileName); 
+  if (fid~=-1)   
+      : 
+  else    
+      : 
+  end 
+  ```
+
+* Avoid the conditional expression if 0. 
+* A switch statement should include the otherwise condition.
+* ```matlab
+  switch (condition)  
+  case ABC      
+      statements; 
+  case DEF      
+      statements; 
+  otherwise     
+      statements; 
+  end 
+  ```
+
+* Use if when the condition is most clearly written as an expression. Use switch when the condition is most clearly written as a variable. 
+
+
 
 
 
