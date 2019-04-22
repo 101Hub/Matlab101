@@ -6,15 +6,7 @@
 >
 > 2. [有哪些让人相见恨晚的 MATLAB 命令？](https://www.zhihu.com/question/24499729)
 
-* 在命令窗口\(The
-   Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
-* 如果一个 M 文件运行时间过长，里面可能含有无限循
-  环，而没有结束。在这种情况下，可在命令窗口内输入 control-c\(简写为^c\)
-* 用 diary 命令记录下在MATLAB 中运行过程中每个线程所做的事。命令的
-  格式如下： diary filename
-   。当这个命令被执行后，所有在命令窗口\(The Command Windows\)中的输入和输出将会被
-  记录在 diary 文件中。这是一个非常重要的工具，当MATLAB 发生错误而中断时，利用它 你可以重建重要的事件。diary off 命令中止写入 diary 文件，diary on 命令重新开始写入。
-* 快捷键：
+* ##### 快捷键：
 
   * **ctrl + C**: 中断正在跑的程序
   * **ctrl + R**: 多行注释
@@ -22,8 +14,7 @@
   * **ctrl + i**: 自动缩进对齐
   * **shift + TAB**: 多行向右缩进
   * **TAB**: 自动补全
-
-* 清理
+* ##### 清理
 
   ```matlab
   >> clc % 清空Command Window
@@ -40,8 +31,9 @@
 
   >> clearvars -except var3 var4 % 理除var3 var4以外的全部变量
   ```
+* ##### 查询：
 
-* 查询：\[注意\] help, doc, edit 命令也可用于自定义函数，其帮助程度取决于该自定义函数的注释规范程度
+> \[注意\] help, doc, edit 命令也可用于自定义函数，其帮助程度取决于该自定义函数的注释规范程度
 
 * ```matlab
   >> help matlab_fun % Matlab内置函数matlab_fun的帮助(简略)
@@ -49,6 +41,14 @@
   >> doc matlab_fun % Matlab内置函数matlab_fun的说明文档(详细)
 
   >> edit matlab_fun % 打开内置函数matlab_fun的script (source code)
+
+  >> demo matlab_fun % 打开demo程序
+
+  >> diary on;
+
+  >> diary off;
+
+  >> diary filename; %保存命令历史记录
 
   >> pwd % 当前文本路径
 
@@ -62,7 +62,7 @@
 
   >> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
   ```
-* 画图
+* ##### 画图
 
   ```matlab
   >> title({‘line 01’, ‘line 02’, ’line 03’}) % 画图中的标题分成多行
@@ -90,9 +90,7 @@
   >> set(h1, 'WindowStyle','docked')
   >> set(h2, 'WindowStyle','docked')
   ```
-
-* 其它
-
+* ##### 其它
 * ```matlab
   >>  addpath(genpath(pwd)) % 添加当前目录的所有子目录到搜索路径中
 
