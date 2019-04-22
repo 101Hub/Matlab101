@@ -400,7 +400,8 @@ initializeProblemState
   ```
 * Use caution with floating point comparisons.
 
-* Use the natural, straightforward form for logical expressions. 
+* Use the natural, straightforward form for logical expressions.
+
 * ```
   Use 
   iSample>=maxSamples; 
@@ -410,7 +411,9 @@ initializeProblemState
   ```
 * Prepare for errors. 
 * Include validity checking in functions used to acquire input. 
-* > Invalid input usually leads to an error stopping execution. Validity checking allows more graceful error handling. Useful tools include validateattributes and inputParser.
+
+> Invalid input usually leads to an error stopping execution. Validity checking allows more graceful error handling. Useful tools include validateattributes and inputParser.
+
 * Avoid use of eval when possible. 
 * Write code as functions when possible .
 * Write code for automation
