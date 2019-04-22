@@ -6,6 +6,11 @@
   * 结构体（Structure）的命名规范
   * 函数（Functions）的命名规范
   * 通用（General）的命名规范
+* 布局、注释及文档规范（Layout, Comments and Documentation ）
+
+* 文件及组织架构（Files and Organization）
+
+* 声明（Statements）
 
 #### 命名规范（Naming Conventions）
 
