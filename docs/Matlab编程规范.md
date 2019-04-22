@@ -193,7 +193,7 @@ initializeProblemState
 
 #### 布局、注释及文档规范（Layout, Comments and Documentation ）
 
-#### 布局（Layout）
+##### 布局（Layout）
 
 * Keep content within the first 80 columns. 
 * Split long lines at graceful places. In general:  Break after a comma or space.  Break after an operator.
@@ -208,19 +208,60 @@ initializeProblemState
   ```
 * Indent 3 or 4 spaces.
 
-* Indent consistently with the MATLAB Editor. 
+* Indent consistently with the MATLAB Editor.
 
-* Write one executable statement per line of code. 
+* Write one executable statement per line of code.
 
-* Short single statement if, for or while statements can be written on one line. 
+* Short single statement if, for or while statements can be written on one line.
 
 * ```matlab
   if(condition), statement; end 
- 
+
   while(condition), statement; end 
- 
-  for iTest = 1:nTest, statement; end 
+
+  for iTest = 1:nTest, statement; end
   ```
+
+##### 空格（Space）
+
+* Surround =, &&, and \|\| by spaces. 
+* ```
+  simpleSum = firstTerm+secondTerm; 
+  ```
+
+* Conventional operators can be surrounded by spaces. 
+* ```
+  simpleAverage = (firstTerm + secondTerm) / two; 
+ 
+  for index = 1 : nIterations 
+  ```
+
+* Commas can be followed by a space. 
+* ```
+  foo(alpha, beta, gamma) 
+ 
+  foo(alpha,beta,gamma)
+  ```
+
+* Follow semicolons or commas for multiple commands in one line by a space character. 
+* ```
+  if (pi>1), disp(‘Yes’), end 
+  ```
+
+* Follow keywords by a space. 
+* Separate logical groups of statements within a block by one blank line.
+* Separate blocks by more than one blank line.
+* Use alignment wherever it enhances readability. 
+* ```
+  value = (10 * nDimes) + …
+          (5 * nNickels) + …
+          (1 *  nPennies);
+  ```
+
+##### 注释（Comments）
+
+* Make the comments easy to read.  
+* Write comments in English. 
 
 
 
