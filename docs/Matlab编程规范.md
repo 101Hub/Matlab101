@@ -252,6 +252,7 @@ initializeProblemState
 * Separate logical groups of statements within a block by one blank line.
 
 * Separate blocks by more than one blank line.
+
 * Use alignment wherever it enhances readability. 
 * ```
   value = (10 * nDimes) + …
@@ -277,6 +278,30 @@ initializeProblemState
   * Comments for publishing 
 
 #### 文件及组织架构（Files and Organization）
+
+##### M文件
+
+* Modularize.
+* Make interaction clear. 
+* Partitioning 
+* Use existing functions. 
+* Any block of code appearing in more than one mfile should be considered for writing as a function.
+* Use structures for function arguments. 
+* Provide some generality in functions .
+* Subfunctions 
+* Test scripts .Write a test script for every function. 
+
+##### 输入和输出（Input and Output）
+
+* Make input and output modules. 
+* Format output for easy use.
+
+> If the output will most likely be read by a human, make it self- descriptive and easy to read. If the output is more likely to be read by software than a person, make it easy to parse. If both are important, make the output easy to parse and write a formatter function to produce a human readable version.
+
+* Use feof for reading files. 
+* Toolboxes 
+
+> Organize m-files that have some generality in toolboxes. Check the function names for shadowing.
 
 
 
