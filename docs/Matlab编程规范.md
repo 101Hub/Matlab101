@@ -373,6 +373,7 @@ initializeProblemState
 * Avoid the conditional expression if 0.
 
 * A switch statement should include the otherwise condition.
+
 * ```matlab
   switch (condition)  
   case ABC      
@@ -387,7 +388,32 @@ initializeProblemState
 
 ##### 通用（General）
 
+* Avoid cryptic code. 
+* Use parentheses. 
+* Minimize the use of numbers in expressions.  
+*  Write fractional values with a digit before the decimal point. 
+* ```
+  Use 
+  THRESHOLD = 0.5; 
+  Avoid 
+  THRESHOLD = .5; 
+  ```
 
+* Use caution with floating point comparisons. 
+* Use the natural, straightforward form for logical expressions. 
+* ```
+  Use 
+  iSample>=maxSamples; 
+ 
+  Avoid 
+  ~(iSample<maxSamples);  
+  ```
+* Prepare for errors. 
+* Include validity checking in functions used to acquire input. 
+* > Invalid input usually leads to an error stopping execution. Validity checking allows more graceful error handling. Useful tools include validateattributes and inputParser.
+* Avoid use of eval when possible. 
+* Write code as functions when possible .
+* Write code for automation
 
 
 
