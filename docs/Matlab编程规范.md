@@ -1,11 +1,8 @@
 ### 📌Matlab 编程规范\(Matlab Coding Style\)
 
 * #### [命名规范（Naming Conventions）](#命名规范（naming-conventions）)
-
   * 变量（Variables）的命名规范
-
   * 常量（Constant）的命名规范
-
   * 结构体（Structure）的命名规范
 
 #### 命名规范（Naming Conventions）
