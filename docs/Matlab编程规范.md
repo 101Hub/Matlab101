@@ -152,20 +152,20 @@ printEmployeePaychecks()；骆驼式命名法——函数名中的每一个逻�
 * Functions with no output argument or which only return a handle should be named after what they do. 
 * Reserve the prefixes get/set for functions that access an object or property. 保留get/set关键字前缀
 * ```
-  getobj, setAppData 
+  getobj, setAppData
   ```
 * Reserve the prefix compute for functions where something is computed. 保留compute前缀
 * ```
-  computeWeightedAverage,  computeSpread 
+  computeWeightedAverage,  computeSpread
   ```
 * Consider reserving the prefix find for functions where something is looked up.
 * ```
-  findOldestRecord,  findTallestMan  
+  findOldestRecord,  findTallestMan
   ```
 * Consider using the prefix initialize where an object or a variable is established.
 
 ```
-initializeProblemState 
+initializeProblemState
 ```
 
 * Use the prefix is has/can/should  for Boolean functions. 关键字前缀is用于布尔函数
@@ -174,7 +174,7 @@ initializeProblemState
   get/set, add/remove, create/destroy, start/stop, 
   insert/delete, increment/decrement, old/new, 
   begin/end, first/last, up/down, min/max, next/previous, 
-  open/close, show/hide, suspend/resume, etc.  
+  open/close, show/hide, suspend/resume, etc.
   ```
 * Avoid unintentional shadowing.  Names can be checked for shadowing using which -all or exist. 
 
