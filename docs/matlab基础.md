@@ -1,4 +1,4 @@
-#### 1. 获得MATLAB帮助的三种方法
+1. 获得MATLAB帮助的三种方法
 
 最好的方法是使用帮助空间窗口（helpbrowser）。你可以单击MATLAB桌面工具栏上的图标 ，也可以在命令窗口 \(The Command Windows\)中输入 helpdesk 或 helpwin 来启动帮助空间窗口（helpbrowser）
 
@@ -7,6 +7,12 @@
 第三种方法是通过 lookfor 命令得到帮助。lookfor 命令与 help 命令不同，help 命令要求与函数名精确匹配，而 lookfor 只要求与每个函数中的总结信息有匹配。
 
 #### 2. 一些常用及非常有效的 matlab 命令及使用技巧
+
+> 参考：
+>
+> 1. [What are some cool MATLAB tricks?](https://www.quora.com/What-are-some-cool-MATLAB-tricks)
+>
+> 2. [有哪些让人相见恨晚的 MATLAB 命令？](https://www.zhihu.com/question/24499729)
 
 * 在命令窗口\(The
    Command Windows\)中输入 demo 或在启动平台中选择“demos”来运行MATLAB 内建的示例。
@@ -45,25 +51,25 @@
 
 * 查询：\[注意\] help, doc, edit 命令也可用于自定义函数，其帮助程度取决于该自定义函数的注释规范程度
 
-```matlab
->> help matlab_fun % Matlab内置函数matlab_fun的帮助(简略)
+* ```matlab
+  >> help matlab_fun % Matlab内置函数matlab_fun的帮助(简略)
 
->> doc matlab_fun % Matlab内置函数matlab_fun的说明文档(详细)
+  >> doc matlab_fun % Matlab内置函数matlab_fun的说明文档(详细)
 
->> edit matlab_fun % 打开内置函数matlab_fun的script (source code)
+  >> edit matlab_fun % 打开内置函数matlab_fun的script (source code)
 
->> pwd % 当前文本路径
+  >> pwd % 当前文本路径
 
->> which some_fun % 找出build-in函数或自定义函数的具体路径
+  >> which some_fun % 找出build-in函数或自定义函数的具体路径
 
->> class(var) % 获取变量var的类型
+  >> class(var) % 获取变量var的类型
 
->> dir() % 当前路径下的所有文件
+  >> dir() % 当前路径下的所有文件
 
->> dir(’some_path\’) % 某路径下的所有文件
+  >> dir(’some_path\’) % 某路径下的所有文件
 
->> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
-```
+  >> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
+  ```
 
 * 画图
 
@@ -96,9 +102,25 @@
 
 * 其它
 
-```
+* ```matlab
+  >>  addpath(genpath(pwd)) % 添加当前目录的所有子目录到搜索路径中
 
-```
+  % 程序运行完毕后提示音
+  >> beep on;
+  >> for i = 1:1e3; end  % script: 运行完毕后有提示音
+  >> beep
+
+  % 程序运行时间
+  >> tic
+  >> for i = 1:1e3; end % script 运行时间
+  >> t = toc
+
+  % 程序运行出错时停止
+  >> dbstop if error
+  >> MyScript % MyScript中的函数出错时，停止在错误处，而不是返回错误并且中断
+  ```
+
+
 
 
 
