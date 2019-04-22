@@ -391,22 +391,22 @@ initializeProblemState
 * Avoid cryptic code. 
 * Use parentheses. 
 * Minimize the use of numbers in expressions.  
-*  Write fractional values with a digit before the decimal point. 
+* Write fractional values with a digit before the decimal point. 
 * ```
   Use 
   THRESHOLD = 0.5; 
   Avoid 
-  THRESHOLD = .5; 
+  THRESHOLD = .5;
   ```
+* Use caution with floating point comparisons.
 
-* Use caution with floating point comparisons. 
 * Use the natural, straightforward form for logical expressions. 
 * ```
   Use 
   iSample>=maxSamples; 
- 
+
   Avoid 
-  ~(iSample<maxSamples);  
+  ~(iSample<maxSamples);
   ```
 * Prepare for errors. 
 * Include validity checking in functions used to acquire input. 
