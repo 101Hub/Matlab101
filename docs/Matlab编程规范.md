@@ -112,7 +112,12 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
   %Use 
   MAX_ITERATIONS 
   %Avoid 
-  TEN, MAXIT 
+  TEN, MAXIT
+  ```
+
+* Constants can be prefixed by a common type name.  
+* ```
+  COLOR_RED, COLOR_GREEN, COLOR_BLUE 
   ```
 
 
