@@ -250,6 +250,7 @@ initializeProblemState
 * Follow keywords by a space.
 
 * Separate logical groups of statements within a block by one blank line.
+
 * Separate blocks by more than one blank line.
 * Use alignment wherever it enhances readability. 
 * ```
@@ -274,6 +275,8 @@ initializeProblemState
   * Minimize use of end of line comments. 
   * Commenting for documentation. 
   * Comments for publishing 
+
+#### 文件及组织架构（Files and Organization）
 
 
 
