@@ -1,4 +1,4 @@
-1. 获得MATLAB帮助的三种方法
+#### 1. 获得MATLAB帮助的三种方法
 
 最好的方法是使用帮助空间窗口（helpbrowser）。你可以单击MATLAB桌面工具栏上的图标 ，也可以在命令窗口 \(The Command Windows\)中输入 helpdesk 或 helpwin 来启动帮助空间窗口（helpbrowser）
 
@@ -70,7 +70,6 @@
 
   >> dir(’some_path\*.m’) % 某路径下所有的matlab文件(同理，.jpg, .csv文件等等)
   ```
-
 * 画图
 
   ```matlab
@@ -119,8 +118,6 @@
   >> dbstop if error
   >> MyScript % MyScript中的函数出错时，停止在错误处，而不是返回错误并且中断
   ```
-
-
 
 
 
