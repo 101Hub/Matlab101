@@ -2,9 +2,11 @@
 
 * #### [命名规范（Naming Conventions）](#命名规范（naming-conventions）)
 
-  * ##### 变量（Variables）的命名规范
-  * ##### 常量（Constant）的命名规范
-  * ##### 结构体（Structure）的命名规范
+  * 变量（Variables）的命名规范
+
+  * 常量（Constant）的命名规范
+
+  * 结构体（Structure）的命名规范
 
 #### 命名规范（Naming Conventions）
 
@@ -129,7 +131,7 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
   %Use 
   Segment.length 
   %Avoid 
-  Segment.segmentLength 
+  Segment.segmentLength
   ```
 
 
