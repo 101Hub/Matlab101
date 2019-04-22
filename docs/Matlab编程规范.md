@@ -5,7 +5,7 @@
   * 常量（Constant）的命名规范
   * 结构体（Structure）的命名规范
   * 函数（Functions）的命名规范
-  * 通用名词（General）的命名规范
+  * 通用（General）的命名规范
 
 #### 命名规范（Naming Conventions）
 
@@ -178,7 +178,7 @@ initializeProblemState
   ```
 * Avoid unintentional shadowing.  Names can be checked for shadowing using which -all or exist. 
 
-##### 通用名词（General）的命名规范
+##### 通用（General）的命名规范
 
 * Consider a unit suffix for dimensioned variables and constants. 
 * Minimize abbreviations in names. 
