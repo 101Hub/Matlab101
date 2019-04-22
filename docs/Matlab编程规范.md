@@ -312,8 +312,8 @@ initializeProblemState
 * Consider documenting important variables in comments near the start of the file.  
 * ```
   % pointArray    Points are in rows. 
- 
-  THRESHOLD = 10; % Maximum noise level found. 
+
+  THRESHOLD = 10; % Maximum noise level found.
   ```
 
 ##### 全局（Globals ）
@@ -335,8 +335,8 @@ initializeProblemState
       result(index) = foo(index); 
   end
   ```
+* Minimize the use of break in loops.
 
-* Minimize the use of break in loops. 
 * Minimize use of continue in loops. 
 * The end lines in nested loops can have identifying comments .
 
