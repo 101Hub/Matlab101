@@ -253,7 +253,8 @@ initializeProblemState
 
 * Separate blocks by more than one blank line.
 
-* Use alignment wherever it enhances readability. 
+* Use alignment wherever it enhances readability.
+
 * ```
   value = (10 * nDimes) + …
           (5 * nNickels) + …
@@ -302,6 +303,42 @@ initializeProblemState
 * Toolboxes 
 
 > Organize m-files that have some generality in toolboxes. Check the function names for shadowing.
+
+#### 声明（Statements）
+
+##### 变量和常量（Variables and constants ）
+
+* Variables should not be reused unless required by memory limitation. 
+* Consider documenting important variables in comments near the start of the file.  
+* ```
+  % pointArray    Points are in rows. 
+ 
+  THRESHOLD = 10; % Maximum noise level found. 
+  ```
+
+##### 全局（Globals ）
+
+* Minimize use of global constants. 
+
+> Use an m-file or mat file to define global constants. This practice makes it clear where the constants are defined and discourages unintentional redefinition. If the m-file access overhead produces an execution speed problem, consider using a function handle.
+
+* Minimize use of global variables.  
+
+> Clarity and maintainability of functions benefit from explicit argument passing rather than use of global variables. Some use of global variables can be replaced with the cleaner persistent or with getappdata. An alternative strategy is to replace the global variable with a function.
+
+##### 循环（Loops）
+
+* Initialize loop result variables immediately before the loop. 
+* ```matlab
+  result = nan(nEntries,1); 
+  for index = 1:nEntries    
+      result(index) = foo(index); 
+  end
+  ```
+
+* Minimize the use of break in loops. 
+* Minimize use of continue in loops. 
+* The end lines in nested loops can have identifying comments .
 
 
 
