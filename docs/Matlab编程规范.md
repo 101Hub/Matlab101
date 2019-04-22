@@ -193,5 +193,22 @@ initializeProblemState
 
 #### 布局、注释及文档规范（Layout, Comments and Documentation ）
 
+#### 布局（Layout）
+
+* Keep content within the first 80 columns. 
+* Split long lines at graceful places. In general:  Break after a comma or space.  Break after an operator. 
+
+* ```matlab
+
+   totalSum = a + b + c + …            
+   d + e; 
+   function (param1, param2,…
+              param3) 
+   setText ([‘Long line split’ …
+             ‘into two parts.’]); 
+  ```
+
+* Indent 3 or 4 spaces. 
+
 
 
