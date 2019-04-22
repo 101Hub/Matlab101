@@ -44,11 +44,9 @@
 
 * ```
   %Use 
-
   isFound and ~isFound 
 
   %Avoid 
-
   isNotFound
   ```
 * Acronyms, even if normally uppercase, should be written in mixed or lower case.
@@ -70,6 +68,7 @@
 * ```
   %Use 
   roi, or regionOfInterest 
+
   %Avoid 
   imageRegionForAnalysis
   ```
@@ -86,6 +85,7 @@
 * ```
   %Use 
   thetaDegrees 
+
   %Avoid 
   uint8thetaDegrees %匈牙利命名法
   ```
@@ -111,6 +111,7 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
   %Use meaningful names for constants.  
   %Use 
   MAX_ITERATIONS 
+
   %Avoid 
   TEN, MAXIT
   ```
@@ -127,6 +128,7 @@ print_employee_paychecks()；下划线法----函数名中的每一个逻辑断�
 * ```
   %Use 
   Segment.length 
+
   %Avoid 
   Segment.segmentLength
   ```
