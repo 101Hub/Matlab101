@@ -351,27 +351,27 @@ initializeProblemState
   end 
 
   should be replaced by:  
- 
+
   isValid = (value >= lowerLimit) &…   
             (value <= upperLimit); 
   isNew   = ~ismember(value, valueArray); 
- 
+
   if (isValid & isNew)   
    : 
-  end 
+  end
   ```
-
 * Put the usual case in the if-part and the unusual in the else-part of an if else statement.
+
 * ```matlab
   fid = fopen(fileName); 
   if (fid~=-1)   
       : 
   else    
       : 
-  end 
+  end
   ```
+* Avoid the conditional expression if 0.
 
-* Avoid the conditional expression if 0. 
 * A switch statement should include the otherwise condition.
 * ```matlab
   switch (condition)  
@@ -381,10 +381,11 @@ initializeProblemState
       statements; 
   otherwise     
       statements; 
-  end 
+  end
   ```
+* Use if when the condition is most clearly written as an expression. Use switch when the condition is most clearly written as a variable.
 
-* Use if when the condition is most clearly written as an expression. Use switch when the condition is most clearly written as a variable. 
+##### 通用（General）
 
 
 
