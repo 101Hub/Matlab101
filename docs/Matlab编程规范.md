@@ -226,29 +226,29 @@ initializeProblemState
 
 * Surround =, &&, and \|\| by spaces. 
 * ```
-  simpleSum = firstTerm+secondTerm; 
+  simpleSum = firstTerm+secondTerm;
   ```
+* Conventional operators can be surrounded by spaces.
 
-* Conventional operators can be surrounded by spaces. 
 * ```
   simpleAverage = (firstTerm + secondTerm) / two; 
- 
-  for index = 1 : nIterations 
-  ```
 
-* Commas can be followed by a space. 
+  for index = 1 : nIterations
+  ```
+* Commas can be followed by a space.
+
 * ```
   foo(alpha, beta, gamma) 
- 
+
   foo(alpha,beta,gamma)
   ```
+* Follow semicolons or commas for multiple commands in one line by a space character.
 
-* Follow semicolons or commas for multiple commands in one line by a space character. 
 * ```
-  if (pi>1), disp(‘Yes’), end 
+  if (pi>1), disp(‘Yes’), end
   ```
+* Follow keywords by a space.
 
-* Follow keywords by a space. 
 * Separate logical groups of statements within a block by one blank line.
 * Separate blocks by more than one blank line.
 * Use alignment wherever it enhances readability. 
@@ -262,6 +262,18 @@ initializeProblemState
 
 * Make the comments easy to read.  
 * Write comments in English. 
+* Header comments 
+  * Present the function syntax in header comments. 
+  * Describe any side effects in the header comments. 
+  * Write the function name in comments using its actual case. 
+  * Avoid clutter in display of the function header. 
+* Inline comments 
+  * Comments cannot justify poorly written code. 
+  * Make the comments agree with the code, but do more than just restate the code.
+  * Indent code comments the same as the statements referred to.
+  * Minimize use of end of line comments. 
+  * Commenting for documentation. 
+  * Comments for publishing 
 
 
 
