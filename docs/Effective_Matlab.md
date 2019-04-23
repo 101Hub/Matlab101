@@ -16,7 +16,9 @@
 * [Matlab 最佳实践（Best Practice of Matlab）](/Matlab最佳实践.md)
 
   * [Matlab 的高级功能及进阶使用](/docs/Matlab的高级功能及进阶使用.md)
+
   * [Matlab 向量化编程\(Vectorization\)](#)
+  * [Matlab 编程珠玑](/Matlab编程珠玑.md)
 
 ## 🔎参考资料
 
