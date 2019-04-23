@@ -13,9 +13,9 @@
 
 * [Matlab 编程规范\(Matlab Coding Style\)](/docs/Matlab编程规范.md)
 
-* [Matlab 最佳实践（Best Practice）](/Matlab最佳实践.md)
+* [Matlab 最佳实践（Best Practice of Matlab）](/Matlab最佳实践.md)
 
-  * 
+  * [Matlab的高级功能及进阶使用](/docs/Matlab的高级功能及进阶使用.md)
 
 * [Matlab 向量化编程\(Vectorization\)](#)
 
