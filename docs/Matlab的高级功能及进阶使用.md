@@ -26,53 +26,53 @@ MATLAB®文件通常包含多个命令。您通常一次仅专注于程序中的
 
 实时脚本和实时函数是用于与一系列 MATLAB®命令进行交互的程序文件。实时脚本包含输出和图形以及生成这些输出和图形的代码，它们共同显示在一个称为实时编辑器的交互式环境中。实时函数提供额外的灵活性，您可以通过它传递输入值并返回输出值。您可以在实时脚本和实时函数中添加格式化文本、图像、超链接和方程，以生成可与他人共享的交互式记叙脚本。
 
-参考：https://ww2.mathworks.cn/help/matlab/live-scripts-and-functions.html
+参考：[https://ww2.mathworks.cn/help/matlab/live-scripts-and-functions.html](https://ww2.mathworks.cn/help/matlab/live-scripts-and-functions.html)
 
 ##### 代码编辑器高级功能
 
 使用 MATLAB®编辑器编辑程序
 
-[**在编辑器中打开和保存文件**](https://ww2.mathworks.cn/help/matlab/matlab_prog/open-and-save-files.html)
+* [ ] [**在编辑器中打开和保存文件**](https://ww2.mathworks.cn/help/matlab/matlab_prog/open-and-save-files.html)
 
 使用多种不同的方法在编辑器中打开和保存文件。
 
-[**在键入时检查语法**](https://ww2.mathworks.cn/help/matlab/matlab_env/check-syntax-as-you-type.html)
+* [ ] [**在键入时检查语法**](https://ww2.mathworks.cn/help/matlab/matlab_env/check-syntax-as-you-type.html)
 
 某些条目在命令行窗口和编辑器中以不同颜色显示，以帮助您识别 MATLAB 元素。这称为_语法高亮显示_。
 
-[**检查代码中的错误和警告**](https://ww2.mathworks.cn/help/matlab/matlab_prog/check-code-for-errors-and-warnings.html)
+* [ ] [**检查代码中的错误和警告**](https://ww2.mathworks.cn/help/matlab/matlab_prog/check-code-for-errors-and-warnings.html)
 
 使用 MATLAB 代码分析器可自动检查您的代码有无编码问题。
 
-[**MATLAB 代码分析器报告**](https://ww2.mathworks.cn/help/matlab/matlab_prog/matlab-code-analyzer-report.html)
+* [ ] [**MATLAB 代码分析器报告**](https://ww2.mathworks.cn/help/matlab/matlab_prog/matlab-code-analyzer-report.html)
 
 生成用于标识代码中的潜在错误、问题以及改进机会的报告。
 
-[**提高代码可读性**](https://ww2.mathworks.cn/help/matlab/matlab_prog/improve-code-readability.html)
+* [ ] [**提高代码可读性**](https://ww2.mathworks.cn/help/matlab/matlab_prog/improve-code-readability.html)
 
 使用缩进、文本宽度指示和代码折叠以使您的代码更便于阅读。
 
-[**在文件中查找并替换文本**](https://ww2.mathworks.cn/help/matlab/matlab_prog/find-and-replace-text-in-files.html)
+* [ ] [**在文件中查找并替换文本**](https://ww2.mathworks.cn/help/matlab/matlab_prog/find-and-replace-text-in-files.html)
 
 在当前文件或多个文件中查找并替换文本。自动重命名函数或变量。
 
-[**转到文件中的位置**](https://ww2.mathworks.cn/help/matlab/matlab_prog/file-navigation.html)
+* [ ] [**转到文件中的位置**](https://ww2.mathworks.cn/help/matlab/matlab_prog/file-navigation.html)
 
 转到文件中的特定位置（例如行号或函数定义）、设置书签、在文件中向后和向前导航，以及从文件中打开文件或变量。
 
-[**同时显示文件的两部分**](https://ww2.mathworks.cn/help/matlab/matlab_prog/display-two-parts-of-a-file-simultaneously.html)
+* [ ] [**同时显示文件的两部分**](https://ww2.mathworks.cn/help/matlab/matlab_prog/display-two-parts-of-a-file-simultaneously.html)
 
 您可以在编辑器中通过分割屏幕来同时显示某一文件的两个不同部分。利用此功能可轻松比较文件中的不同行或从文件的一个部分复制并粘贴到另一个部分。
 
-[**在文件中添加提醒**](https://ww2.mathworks.cn/help/matlab/matlab_prog/add-reminders-to-files.html)
+* [ ] [**在文件中添加提醒**](https://ww2.mathworks.cn/help/matlab/matlab_prog/add-reminders-to-files.html)
 
 通过为文件添加注释可以更轻松地查找您的代码中您打算在日后改进、完成或更新的区域。
 
-[**编辑器/调试器预设项**](https://ww2.mathworks.cn/help/matlab/matlab_env/about-editor-debugger-preferences.html)
+* [ ] [**编辑器/调试器预设项**](https://ww2.mathworks.cn/help/matlab/matlab_env/about-editor-debugger-preferences.html)
 
 使用“编辑器/调试器”预设项对编辑器进行自定义。
 
-[**代码分析器预设项**](https://ww2.mathworks.cn/help/matlab/matlab_env/about-code-analyzer-preferences.html)
+* [ ] [**代码分析器预设项**](https://ww2.mathworks.cn/help/matlab/matlab_env/about-code-analyzer-preferences.html)
 
 设置代码分析器预设项可启用或禁用代码分析器功能并指定消息指示标记预设项。
 
