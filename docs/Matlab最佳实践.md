@@ -1,4 +1,4 @@
-### 🏆Matlab 最佳实践（Best Practice）
+### 🏆Matlab 最佳实践（Best Practice of Matlab）
 
 > 序：
 >
