@@ -67,7 +67,17 @@ legend({'Line 1','Line 2','Line 3','Line 4'},'FontSize',12,'TextColor','blue')
 
 ```
 
+set(gcf,'Name','Property')%设置当前图窗的属性
+
+set(gca,'Name','Property')%设置当前坐标轴的属性
+
+p = plot(1:10,1:10);
+p.LineWidth = 3; 
+%或者
+set(p,'Name','Property')
 ```
+
+> [1.查看图形对象的属性及标识](https://ww2.mathworks.cn/help/matlab/graphics-object-properties.html)
 
 
 
