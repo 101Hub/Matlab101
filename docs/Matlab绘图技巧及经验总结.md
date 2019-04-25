@@ -44,6 +44,13 @@ hold off
 
 %方法二
 plot(x,y1,'LineSpec1',x,y2,'LineSpec2')
+
+
+
+%% title,legend,text的用法
+title(['Temperature is ',num2str(c),' C'])%包含变量c
+title({'First line';'Second line'})%分行
+
 ```
 
 参考：
