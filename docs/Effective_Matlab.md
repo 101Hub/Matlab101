@@ -24,10 +24,13 @@
 
 ## 🔎参考资料
 
+* [Matlab tips and tricks](#)
+
 * [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](/assets/Matlab编程%28第二版%29.pdf)   🗃[源代码](/assets/《Matlab编程》源码)
 * [《Matlab Guidelines》\(Richard K. Johnson\)](http://datatool.com/resources.html)
 * [《The Elements of MATLAB Style 》\(Richard K. Johnson\)](#)
-*   [Matlab tips and tricks](https://link.zhihu.com/?target=http%3A//www.ee.columbia.edu/~marios/matlab/matlab_tricks.html)
+
+
 
 
 
