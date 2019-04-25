@@ -20,7 +20,7 @@
 
 2.  #### Matlab 编程
 	- [脚本和函数编程——程序文件、控制流、编辑、调试（官网）](https://ww2.mathworks.cn/help/matlab/programming-and-data-types.html)
-	- [《Matlab 编程》第二版 Stephen J. Chapman 著 邢树军 郑碧波译](assets/Matlab编程(第二版).pdf)    🗃[源代码](assets/《Matlab编程》源码)
+	- [《Matlab 编程》 第二版 Stephen J. Chapman 著 邢树军 郑碧波译  ](/assets/Matlab编程(第二版).pdf) 🗃[源代码](assets/《Matlab编程》源码)
 
 	
 ```
