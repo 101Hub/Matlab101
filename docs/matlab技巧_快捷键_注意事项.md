@@ -33,6 +33,8 @@
   >> clear var1 var2 % 清理变量var1 var2 (注意用空格分隔)
 
   >> clearvars -except var3 var4 % 理除var3 var4以外的全部变量
+
+  >> save filename.mat var1 var2 %保存变量var1/var2至文件filename.mat中，支持通配符*
   ```
 * ##### 查询：
 
@@ -105,7 +107,7 @@
   % 程序运行时间
   >> tic
   >> for i = 1:1e3; end % script 运行时间
-  >> t = toc
+  >> t = toc %disp('程序的运行时间为'+num2str(toc))
 
   % 程序运行出错时停止
   >> dbstop if error
