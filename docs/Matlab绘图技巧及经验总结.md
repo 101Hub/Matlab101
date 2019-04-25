@@ -63,6 +63,8 @@ legend({'Line 1','Line 2','Line 3','Line 4'},'FontSize',12,'TextColor','blue')
 
 #### 图形对象属性控制绘图参数：set/get
 
+![](/assets/图形对象层次结构)
+
 ```
 
 ```
