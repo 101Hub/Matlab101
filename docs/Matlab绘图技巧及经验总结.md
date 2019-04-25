@@ -48,7 +48,8 @@ plot(x,y1,'LineSpec1',x,y2,'LineSpec2')
 
 grid on;            %加网格线
 box on;            %加坐标边框
-axis equal          %坐标轴采用等刻度
+axis on/off;
+axis equal;%坐标轴采用等刻度
 
 %% title,legend,text，xlabel，ylabel的用法
 title(['Temperature is ',num2str(c),' C'])%包含变量c
@@ -63,7 +64,7 @@ legend({'Line 1','Line 2','Line 3','Line 4'},'FontSize',12,'TextColor','blue')
 #### 图形对象属性控制绘图参数：set/get
 
 ```
- 
+
 ```
 
 
