@@ -66,15 +66,24 @@ legend({'Line 1','Line 2','Line 3','Line 4'},'FontSize',12,'TextColor','blue')
 ![](/assets/图形对象层次结构)
 
 ```
-
+h1=figure(1)%
 set(gcf,'Name','Property')%设置当前图窗的属性
+set(h1,'Name','Property')%设置当前图窗的属性
 
+a1=axes()
 set(gca,'Name','Property')%设置当前坐标轴的属性
+set(a1,'Name','Property')%设置当前坐标轴的属性
 
-p = plot(1:10,1:10);
-p.LineWidth = 3; 
+
+p1 = plot(1:10,1:10);
+p1.LineWidth = 3; 
 %或者
-set(p,'Name','Property')
+set(p1,'Name','Property')
+
+t1=text('');
+set(p1,'Name','Property');
+
+
 ```
 
 > [1.查看图形对象的属性及标识](https://ww2.mathworks.cn/help/matlab/graphics-object-properties.html)
