@@ -42,7 +42,13 @@ end
 ```
 %Create a 1000 by 1000 vector full of 7s
 1. X=7*ones(1000,1000);
-2. X=repmat(7,1000,1000); 
+2. X=repmat(7,1000,1000);
+```
+
+2.accumarray函数
+
+```
+
 ```
 
 
