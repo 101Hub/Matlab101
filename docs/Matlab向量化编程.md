@@ -55,12 +55,7 @@ f = @(x) (x<1)*x + (x>=1&x<2)*x^2 + (x>=2)*x^3;
 2. X=repmat(7,1000,1000);
 ```
 
-2.accumarray函数
 
-3.arrayfun函数  
-B = arrayfun\(func,A1,...,An\) 将 func 应用于数组 A1,...,An 的元素，因此 B\(i\) = func\(A1\(i\),...,An\(i\)\)。函数 func 必须接受 n 个输入参数并返回一个标量。数组 A1,...,An 的大小必须全部相同。
-
-4.bsxfun函数
 
 #### 内联函数、匿名函数
 
