@@ -81,3 +81,31 @@ h23=h(2,3)
 
 2.@匿名函数
 
+```
+a = pi;
+b = 15;
+f = @(x,y) (a*x+b*y);
+fsurf(f);
+title('f(x,y) = ax+by, a = \pi, b = 15');
+
+f = @(x) x.^2;
+g = @(x) 3*x;
+h = @(x) g(f(x));
+h(3)
+```
+
+3.函数句柄
+
+```
+str2func('@(x,y)sin(x*y)') %  str -> @func 返回一个函数句柄
+
+syms x y
+fs(x,y) = x^2+sin(x*y);
+fh=matlabFunction(fs); % symfun -> @func 返回一个函数句柄 ！！！强烈推荐
+
+fh = @(x)x.^2+sin(x);
+fun2str(fh)    % @func ->str 函数句柄变为字符
+```
+
+
+

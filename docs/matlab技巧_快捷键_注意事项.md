@@ -109,6 +109,8 @@
   >> for i = 1:1e3; end % script 运行时间
   >> t = toc %disp('程序的运行时间为'+num2str(toc))
 
+  eval(['save myfile',int2str(n),'.mat'])     % Not recommended
+
   % 程序运行出错时停止
   >> dbstop if error
   >> MyScript % MyScript中的函数出错时，停止在错误处，而不是返回错误并且中断
