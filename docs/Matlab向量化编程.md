@@ -10,9 +10,40 @@ MATLAB®针对涉及矩阵和向量的运算进行了优化。修正基于循环
 
 #### 代码向量化
 
+```
+for i = 1:100
+ for j = 1:100
+ r(i,j) = sqrt(i^2+j^2);
+ end
+end
+
+%向量化代码
+ [i,j]=meshgrid(1:100,1:100);
+ r = sqrt(i.^2+j.^2);
+```
+
 #### 逻辑数组
 
+1. 寻找大于6的元素
+
+```
+ X=1:10
+ V=X>6
+ X(V)
+%or, more succinctly,
+ X=1:10
+ X(X>6)
+```
+
 #### 向量化函数
+
+1.repmat函数
+
+```
+%Create a 1000 by 1000 vector full of 7s
+1. X=7*ones(1000,1000);
+2. X=repmat(7,1000,1000); 
+```
 
 
 
