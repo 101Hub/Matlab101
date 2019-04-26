@@ -38,7 +38,11 @@ end
 2.分段函数
 
 ```
-
+function y = fun(x)
+y = (x<1)*x + (x>=1&x<2)*x^2 + (x>=2)*x^3;
+return
+% 当然，也乐意直接写成匿名函数的形式
+f = @(x) (x<1)*x + (x>=1&x<2)*x^2 + (x>=2)*x^3;
 ```
 
 #### 向量化函数
@@ -63,5 +67,17 @@ end
 
 #### 内联函数、匿名函数
 
+1.inline内联函数
 
+```
+close all; clear all; clc;
+f=inline('x^2+2*x+1')
+g=inline('x^2+y^2')
+h=inline('sin(x)+log(y)')
+f2=f(2)
+g23=g(2,3)
+h23=h(2,3)
+```
+
+2.@匿名函数
 
