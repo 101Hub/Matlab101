@@ -27,7 +27,11 @@
 
 5.调试MATLAB 程序
 
-![](/assets/matlab自上而下编程方法.png)![](/assets/matlab调试2.png)
+![](/assets/matlab自上而下编程方法.png)
+
+函数式编程思想\(functional programming\)
+
+![](/assets/matlab调试2.png)
 
 #### 优秀的 Matlab Codes
 
